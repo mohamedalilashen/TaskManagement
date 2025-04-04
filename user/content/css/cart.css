@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* Start Header */
+header h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+/* End Header */
+/* Start Table */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-table th:last-child,
+.cart-table td:last-child {
+  text-align: right;
+}
+tbody .product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+@media (max-width: 678px) {
+  tbody .product {
+    flex-direction: column;
+  }
+  .cart-table {
+    display: block;
+    overflow: auto;
+  }
+}
+.cart-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+.product-image {
+  margin-right: 10px;
+}
+.product-image img {
+  width: 150px;
+}
+.product-info {
+  display: inline-block;
+}
+.product-name {
+  margin: 0;
+}
+.product-size {
+  margin: 0;
+  color: #999;
+  text-align: left;
+}
+.quantity-input {
+  width: 50px;
+  text-align: center;
+  display: flex;
+  gap: 7px;
+  margin-top: 5px;
+}
+#quantity {
+  text-align: center;
+}
+.product-price,
+.product-subtotal,
+.cart-total {
+  font-weight: bold;
+}
+.remove-product-button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.remove-product-button:hover {
+  background-color: #ddd;
+}
+.cart-label {
+  text-align: right;
+  font-weight: bold;
+}
+.cart-total {
+  text-align: right;
+}
+.quantity span,
+.size span {
+  display: block;
+  margin-bottom: 5px;
+}
+.quantity .quantity-input {
+  display: flex;
+  padding: 8px;
+  gap: 10px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.quantity .quantity-input span {
+  font-size: 18px;
+  user-select: none;
+  cursor: pointer;
+}
+.quantity .quantity-input input {
+  border: none;
+  text-align: center;
+}
+.quantity .quantity-input input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.cart-content button {
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  cursor: pointer;
+}
+.submit {
+  margin: 20px 0;
+}
+.submit button {
+  display: block;
+  margin: 0 auto;
+  padding: 14px 28px;
+  line-height: normal;
+  outline: 1px solid black;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.submit button:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+/* End Table */
+/* Globally */
+.container {
+  width: 100%;
+  padding: 0 30px;
+}
+.show {
+  display: flex;
+}

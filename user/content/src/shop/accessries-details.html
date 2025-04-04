@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SpaceY" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/navbar/navbar.css" />
+    <link rel="stylesheet" href="../../css/product-details.css" />
+    <title>product-details</title>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="container">
+        <div class="main-nav__logo">
+          <a href="../../../index.html"
+            ><img src="../../image/logo/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="menu-icon">
+          <span class="icon"></span>
+        </div>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <p href="#" class="main-nav__link store">Store</p>
+            <ul class="main-nav__item__menu">
+              <li><a href="#">Shop Men</a></li>
+              <li>
+                <a href="./shop-female.html">Shop Woman</a>
+              </li>
+              <li>
+                <a href="accessries.html">Accessories</a>
+              </li>
+            </ul>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Blog</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../about-us.html" class="main-nav__link">About Us</a>
+          </li>
+          <li class="main-nav__item sign-in">
+            <a href="#" class="main-nav__link">Sign in</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="product-details">
+        <div class="container">
+          <div class="product-details__content">
+            <div class="product-details__content__img">
+              <img src="../../image/shop-men/1-F.webp" alt="..." />
+            </div>
+            <div class="product-details__content__text">
+              <div class="header">
+                <h3>UNISEX SPACEY ZIPPER HOODIEeeeeeeeeeeeeeeee</h3>
+                <p>$50.00</p>
+              </div>
+              <hr />
+              <div class="fabric">
+                <p>Fabric Content:</p>
+                <ul>
+                  <li><span>Small-2X: 70% Cotton / 30% Polyester</span></li>
+                  <li><span>3X-5X: 50% Cotton / 50% Polyester</span></li>
+                </ul>
+              </div>
+              <form>
+                <div class="quantity">
+                  <span>Quantity:</span>
+                  <div class="quantity-input">
+                    <span class="quantity-btn" data-action="minus">-</span>
+                    <input
+                      type="number"
+                      id="quantity"
+                      name="quantity"
+                      min="1"
+                      max="10"
+                      value="1"
+                    />
+                    <span class="quantity-btn" data-action="plus">+</span>
+                  </div>
+                </div>
+                <div class="submit">
+                  <button type="submit">ADD TO CART</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../../js/navBar.js"></script>
+    <script src="../../js/accessries-details.js"></script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* Start Banner */
+.banner {
+  height: calc(100vh - 80px);
+  background-image: url(../image/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+.banner-content {
+  text-align: center;
+  color: #fff;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.banner-content h1 {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 82.5px;
+}
+.banner-content p {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 21px;
+  font-weight: 400;
+}
+@media (max-width: 619px) {
+  .banner-content {
+    padding-top: 0;
+    gap: 25px;
+  }
+  .banner-content h1 {
+    font-size: 37px;
+    line-height: unset;
+    margin-bottom: 15px;
+  }
+  .banner-content p {
+    width: 70%;
+  }
+}
+.numbers {
+  background-color: #fff;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 50%;
+  border-radius: 25px 15px 0 0;
+  -webkit-border-radius: 25px 15px 0 0;
+  -moz-border-radius: 25px 15px 0 0;
+  -ms-border-radius: 25px 15px 0 0;
+  -o-border-radius: 25px 15px 0 0;
+}
+.numbers__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 110px 0;
+  overflow: hidden;
+}
+.numbers__item {
+  text-align: center;
+}
+.numbers__item h3 {
+  font-size: 36px;
+  font-weight: 500;
+  animation: count 2s ease-out forwards;
+}
+.numbers__item span {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+.banner-content a {
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 20px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.banner-content a:hover {
+  background-color: white;
+  color: #333;
+}
+@keyframes count {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 991px) {
+  .numbers__content {
+    padding: 15px 40px 0;
+    overflow-y: auto;
+  }
+}
+@media (max-width: 767px) {
+  .numbers__content {
+    gap: 77px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+/* End Banner */
+.container {
+  width: 100%;
+  padding: 0 30px;
+}
+.show {
+  display: flex;
+}

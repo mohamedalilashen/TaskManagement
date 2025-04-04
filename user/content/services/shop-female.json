@@ -1,0 +1,58 @@
+[
+  {
+    "id":0,
+    "src-front":"../../image/shop-men/1-F.webp",
+    "src-back":"../../image/shop-men/1-B.webp",
+    "title":"MEN'S SPACEY T-SHIRT",
+    "price":30
+  },
+  {
+    "id":1,
+    "src-front":"../../image/shop-men/2-F.webp",
+    "src-back":"../../image/shop-men/2-B.webp",
+    "title":"MEN'S SPACEY T-SHIRT",
+    "price":30
+  },  
+  {
+    "id":2,
+    "src-front":"../../image/shop-men/3-F.webp",
+    "src-back":"../../image/shop-men/3-B.webp",
+    "title":"MEN'S SPACEY T-SHIRT",
+    "price":30
+  },  
+  {
+    "id":3,
+    "src-front":"../../image/shop-men/4-F.webp",
+    "src-back":"../../image/shop-men/4-B.webp",
+    "title":"MEN'S SPACEY T-SHIRT",
+    "price":30
+  },  
+  {
+    "id":4,
+    "src-front":"../../image/shop-men/5-F.webp",
+    "src-back":"../../image/shop-men/5-B.webp",
+    "title":"MEN'S SPACEY T-SHIRT",
+    "price":30
+  },  
+  {
+    "id":5,
+    "src-front":"../../image/shop-men/6-F.webp",
+    "src-back":"../../image/shop-men/6-B.webp",
+    "title":"MEN'S SPACEY T-SHIRT",
+    "price":30
+  },  
+  {
+    "id":6,
+    "src-front":"../../image/shop-men/7-F.webp",
+    "src-back":"../../image/shop-men/7-B.webp",
+    "title":"MEN'S SPACEY T-SHIRT",
+    "price":30
+  },  
+  {
+    "id":7,
+    "src-front":"../../image/shop-men/8-F.webp",
+    "src-back":"../../image/shop-men/8-B.webp",
+    "title":"MEN'S SPACEY T-SHIRT",
+    "price":30
+  }
+]

@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* Start Hero */
+.hero {
+  height: calc(100vh - 80px);
+  background-image: url(../image/about-us-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.hero-content {
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 120px;
+  font-weight: 600;
+  color: #fff;
+}
+@media (max-width: 800px) {
+  .hero-content h1 {
+    font-size: 3em;
+  }
+}
+/* End Hero */
+/* Start Meet */
+.meet {
+  padding: 90px 0;
+}
+.meet .meet-content {
+  text-align: center;
+}
+.meet .meet-content h3 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.meet .meet-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4211em;
+  max-width: 725px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #555555;
+}
+
+/* End Meet */
+/* Start founder-one */
+.founder-one {
+  background-color: #f7f7f7;
+}
+.founder-content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  /* padding: 50px 0; */
+}
+.founder-content .image {
+  width: 50%;
+}
+.founder-content .text {
+  width: 50%;
+}
+.founder-content .text span {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #2c4bfc;
+}
+.founder-content .text h4 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+.founder-content .text p {
+  width: 77%;
+  font-size: 18px;
+}
+.founder-content .image img {
+  width: 80%;
+  box-shadow: -12px 12px #d9dffb;
+  display: block;
+  margin-left: auto;
+}
+
+/* End founder-one */
+/* Start founder-two*/
+.founder-two {
+  padding: 50px 0;
+}
+.founder-two .founder-content .image img {
+  margin: 0 auto 0 0;
+  box-shadow: 12px 12px #d9dffb;
+}
+.founder-two .founder-content .text p,
+.founder-two .founder-content .text span,
+.founder-two .founder-content .text h4 {
+  width: 83%;
+  display: block;
+  margin-left: auto;
+}
+@media (max-width: 991px) {
+  .founder-one {
+    padding: 20px 0;
+  }
+  .founder-content {
+    height: auto;
+    flex-direction: column;
+    justify-content: unset;
+  }
+  .founder-content .image {
+    width: 100%;
+  }
+  .founder-content .image img {
+    width: 85%;
+    margin: auto;
+  }
+  .founder-content .text {
+    width: 100%;
+    text-align: center;
+  }
+  .founder-content .text p {
+    width: auto;
+    padding: 0 50px;
+  }
+  .founder-two .founder-content .text p,
+  .founder-two .founder-content .text span,
+  .founder-two .founder-content .text h4 {
+    width: auto;
+    display: block;
+    margin-left: unset;
+  }
+  .founder-two .founder-content .image img {
+    margin: auto;
+  }
+}
+@media (max-width: 425px) {
+  .founder-content .text p {
+    width: auto;
+    padding: 0;
+  }
+}
+/* End founder-two*/
+/* Start Employee */
+.employee {
+  padding: 80px 0;
+}
+.employee-cards {
+  width: 80%;
+  margin: 0 auto;
+}
+.employee-cards .employee-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content !important;
+  position: relative;
+}
+.employee-cards .employee-card .image {
+  position: relative;
+}
+.employee-cards .employee-card .image img {
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+.employee-cards .employee-card .image .info {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #d9dffb;
+  color: #001747;
+  padding: 1rem;
+  font-size: 16px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3;
+  -webkit-transition: all 0.4s;
+}
+.employee-cards .employee-card .image:hover .info {
+  opacity: 1;
+  visibility: visible;
+}
+.employee-cards .employee-card .text h5 {
+  font-size: 22px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.employee-cards .employee-card .text p {
+  text-align: center;
+  color: #2c4bfc;
+  font-size: 18px;
+}
+.employee-cards .right,
+.employee-cards .left {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+.employee-cards svg {
+  width: 25px;
+}
+.employee-cards .right {
+  right: -30px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.employee-cards .left {
+  left: -30px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+/* End Employee */
+/* End Footer */
+.container {
+  width: 100%;
+  padding: 0 30px;
+}
+.show {
+  display: flex;
+}
+.px-2 {
+  padding: 0 5px;
+}

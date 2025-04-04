@@ -1,0 +1,106 @@
+
+  {
+  "men":[
+      {
+        "id":0,
+        "src-front":"../../image/shop-men/1-F.webp",
+        "src-back":"../../image/shop-men/1-B.webp",
+        "title":"MEN'S SPACEY T-SHIRT",
+        "price":30
+      },
+      {
+        "id":1,
+        "src-front":"../../image/shop-men/2-F.webp",
+        "src-back":"../../image/shop-men/2-B.webp",
+        "title":"MEN'S OCCUPY MARS T-SHIRT",
+        "price":40
+      },  
+      {
+        "id":2,
+        "src-front":"../../image/shop-men/3-F.webp",
+        "src-back":"../../image/shop-men/3-B.webp",
+        "title":"MEN'S FALCON 1 T-SHIRT",
+        "price":90
+      },  
+      {
+        "id":3,
+        "src-front":"../../image/shop-men/4-F.webp",
+        "src-back":"../../image/shop-men/4-B.webp",
+        "title":"MEN'S CREW DRAGON SCHEMATIC T-SHIRT",
+        "price":80
+      },  
+      {
+        "id":4,
+        "src-front":"../../image/shop-men/5-F.webp",
+        "src-back":"../../image/shop-men/5-B.webp",
+        "title":"MEN'S STARMAN T-SHIRT",
+        "price":60
+      },  
+      {
+        "id":5,
+        "src-front":"../../image/shop-men/6-F.webp",
+        "src-back":"../../image/shop-men/6-B.webp",
+        "title":"MEN'S DRAGON T-SHIRT",
+        "price":10
+      },  
+      {
+        "id":6,
+        "src-front":"../../image/shop-men/7-F.webp",
+        "src-back":"../../image/shop-men/7-B.webp",
+        "title":"MEN'S FALCON HEAVY T-SHIRT",
+        "price":40
+      },  
+      {
+        "id":7,
+        "src-front":"../../image/shop-men/8-F.webp",
+        "src-back":"../../image/shop-men/8-B.webp",
+        "title":"MEN'S F9 T-SHIRT",
+        "price":100
+      }
+  ],
+  "accessories":[
+    {
+      "id":8,
+      "src-front":"../../image/accessories/1.webp",
+      "title":"Test-1",
+      "price":10
+    },
+    {
+      "id":9,
+      "src-front":"../../image/accessories/2.webp",
+      "title":"Test-2",
+      "price":20
+    },
+    {
+      "id":10,
+      "src-front":"../../image/accessories/3.webp",
+      "title":"Test-3",
+      "price":30
+    },
+    {
+      "id":11,
+      "src-front":"../../image/accessories/4.webp",
+      "title":"Test-4",
+      "price":40
+    },
+    {
+      "id":12,
+      "src-front":"../../image/accessories/5.webp",
+      "title":"Test-5",
+      "price":50
+    },
+    {
+      "id":13,
+      "src-front":"../../image/accessories/6.webp",
+      "title":"Test-6",
+      "price":60
+    },
+    {
+      "id":14,
+      "src-front":"../../image/accessories/7.webp",
+      "title":"Test-7",
+      "price":70
+    }
+  ]
+}
+

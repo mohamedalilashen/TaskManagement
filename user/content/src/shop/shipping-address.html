@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SpaceY" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/shipping-address.css" />
+    <link rel="stylesheet" href="../../css/navbar/navbar.css" />
+    <title>Shipping-Address</title>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="container">
+        <div class="main-nav__logo">
+          <a href="../../../index.html"
+            ><img src="../../image/logo/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="menu-icon">
+          <span class="icon"></span>
+        </div>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <p href="#" class="main-nav__link store">Store</p>
+            <ul class="main-nav__item__menu">
+              <li><a href="#">Shop Men</a></li>
+              <li>
+                <a href="./shop-female.html">Shop Woman</a>
+              </li>
+              <li>
+                <a href="accessries.html">Accessories</a>
+              </li>
+            </ul>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Blog</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../about-us.html" class="main-nav__link">About Us</a>
+          </li>
+          <li class="main-nav__item sign-in">
+            <a href="#" class="main-nav__link">Sign in</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="shipping">
+        <div class="container">
+          <form action="../payment.html">
+            <div class="shipping-content">
+              <h1>Shipping</h1>
+              <p>Please enter your shipping details.</p>
+              <hr />
+              <div class="form">
+                <div class="fields fields--2">
+                  <label class="field">
+                    <span class="field__label" for="firstname">First name</span>
+                    <input class="field__input" type="text" id="firstname" />
+                  </label>
+                  <label class="field">
+                    <span class="field__label" for="lastname">Last name</span>
+                    <input class="field__input" type="text" id="lastname" />
+                  </label>
+                </div>
+                <label class="field">
+                  <span class="field__label" for="address">Address</span>
+                  <input class="field__input" type="text" id="address" />
+                </label>
+                <label class="field">
+                  <span class="field__label" for="country">Country</span>
+                  <select class="field__input" id="country">
+                    <option value=""></option>
+                    <option value="eg">Egypt</option>
+                    <option value="unitedstates">United States</option>
+                  </select>
+                </label>
+                <div class="fields fields--3">
+                  <label class="field">
+                    <span class="field__label" for="zipcode">Zip code</span>
+                    <input class="field__input" type="text" id="zipcode" />
+                  </label>
+                  <label class="field">
+                    <span class="field__label" for="city">City</span>
+                    <input class="field__input" type="text" id="city" />
+                  </label>
+                  <label class="field">
+                    <span class="field__label" for="state">STATE</span>
+                    <input class="field__input" type="text" id="state" />
+                  </label>
+                </div>
+              </div>
+              <hr />
+              <button class="button">Continue</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="../../js/navBar.js"></script>
+  </body>
+</html>

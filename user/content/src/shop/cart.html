@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SpaceY" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/navbar/navbar.css" />
+    <link rel="stylesheet" href="../../css/cart.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="container">
+        <div class="main-nav__logo">
+          <a href="../../../index.html"
+            ><img src="../../image/logo/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="menu-icon">
+          <span class="icon"></span>
+        </div>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <p href="#" class="main-nav__link store">Store</p>
+            <ul class="main-nav__item__menu">
+              <li><a href="./shop-men.html">Shop Men</a></li>
+              <li>
+                <a href="./shop-female.html">Shop Woman</a>
+              </li>
+              <li>
+                <a href="accessries.html">Accessories</a>
+              </li>
+            </ul>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Blog</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../about-us.html" class="main-nav__link">About Us</a>
+          </li>
+          <li class="main-nav__item sign-in">
+            <a href="#" class="main-nav__link">Sign in</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section>
+        <header><h1>CART</h1></header>
+      </section>
+      <section class="cart">
+        <div class="container">
+          <div class="cart-content">
+            <form action="shipping-address.html">
+              <table class="cart-table">
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"></td>
+                    <td class="cart-label">Total:</td>
+                    <td class="cart-total"></td>
+                  </tr>
+                </tfoot>
+              </table>
+              <div class="submit">
+                <button type="submit">Checkout</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../../js/navBar.js"></script>
+    <script src="../../js/cart.js"></script>
+  </body>
+</html>
